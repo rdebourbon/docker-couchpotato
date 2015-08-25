@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker build --rm -t timhaak/couchpotato .
+docker build --rm -t rdebourbon/couchpotato .

@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker build --rm --no-cache -t timhaak/couchpotato .
+docker build --rm --no-cache -t rdebourbon/couchpotato .
