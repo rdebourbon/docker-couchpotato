@@ -7,7 +7,7 @@ RUN groupadd -r librarian && useradd -r -g librarian librarian
 RUN apt-get -q update && \
     apt-get install -qy --force-yes python-pip build-essential python-dev libffi-dev libssl-dev && \
     pip install --upgrade cryptography pyopenssl ndg-httpsclient pyasn1 && \
-    git clone https://github.com/RuudBurger/CouchPotatoServer.git /CouchPotatoServer && \
+    git clone https://github.com/CouchPotato/CouchPotatoServer.git /CouchPotatoServer && \
     apt-get -y autoremove && \
     apt-get -y clean && \
     rm -rf /var/lib/apt/lists/* && \
